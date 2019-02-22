@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+.landingPage {
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    background-image: url('../assets/background.jpg');
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.titleCs {
+    padding: 7em;
+    margin-top: 10em;
+}
+
+.titleCs h3 {
+    font-family: 'Cabin', sans-serif;
+    color: #fff;
+}
+
+.about {
+    margin: 5em;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5em;
+}
+
+.about h3{
+    font-family: 'Cabin', sans-serif;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.about img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.btn {
+    margin: 1em;
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    outline: none;
+}
+
+.btn:hover {
+    border: 2px solid rgb(43, 42, 42);
+    color: #fff;
+    background: rgb(43, 42, 42);
+}
+
+.btn-white {
+    margin: 1em;
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 2px;
+    background: rgb(43, 42, 42);
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    outline: none;
+}
+
+.btn-white:hover {
+    border: 2px solid rgb(43, 42, 42);
+    color: rgb(43, 42, 42);
+    background: #fff;
+    animation-name: none; 
+}
+
+.event {
+    margin: 5em;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5em;
+}
+
+.event h3{
+    font-family: 'Cabin', sans-serif;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.event img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.contact {
+    margin: 5em;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5em;
+}
+
+.contact h3{
+    font-family: 'Cabin', sans-serif;
+}
+
+.contact i {
+    padding: 1em;
+    color: rgb(63, 56, 56);
+}
+
+.footer {
+    background-color: #fff;
+    padding: 2em;
+}
+
+@media screen and (max-width: 800px) {
+    .titleCs {
+        padding: 5em;
+        margin-top: 10em;
+    }
+
+    .titleCs h3 {
+        font-size: 2em;
+    }
+
+    .about {
+        margin: 1em;
+        background-color: #fff;
+        border-radius: 2px;
+        padding: 1em;
+    }
+    
+    .about h3{
+        font-family: 'Cabin', sans-serif;
+        font-size: 2em;
+    }
+
+    .event {
+        margin: 1em;
+        background-color: #fff;
+        border-radius: 2px;
+        padding: 1em;
+    }
+
+    .contact {
+        margin: 1em;
+        background-color: #fff;
+        border-radius: 2px;
+        padding: 1em;
+    }
+
+    .contact i {
+        padding: 0.5em;
+        color: rgb(63, 56, 56);
+    }
+  }

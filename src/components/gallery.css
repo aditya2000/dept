@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+.gallery {
+    font-family: 'Cabin', sans-serif;
+    background: #fff;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.galleryAbout {
+    margin-top: 15em;
+    padding: 2em;
+}
+
+.galleryAbout h3 {
+    font-family: 'Cabin', sans-serif;
+    color: rgb(63, 56, 56);
+}
+
+.galleryAbout img {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.galleryAbout img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}

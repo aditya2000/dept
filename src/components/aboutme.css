@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+.aboutme {
+    font-family: 'Cabin', sans-serif;
+    background: #fff;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.titleAbout {
+    margin-top: 15em;
+}
+
+.titleAbout h3 {
+    font-family: 'Cabin', sans-serif;
+    color: rgb(63, 56, 56);
+}
+
+.titleDesc {
+    margin: 5em;
+}
+.titleAbout p {
+    font-size: 1.1em;
+}
+
+.titleEvents {
+    margin: 6em;
+    text-align: left;
+}
+
+.whizQuiz {
+    text-align: left;
+    background: rgb(211, 59, 59);
+    padding: 2em;
+    color: #fff;
+    border-radius: 2px;
+    margin: 2em;
+}
+
+.whizQuiz h4 {
+    font-family: 'Cabin', sans-serif;
+    padding: .5em;
+}
+
+.whizQuiz img {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.whizQuiz img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.confondo {
+    text-align: left;
+    background: rgb(211, 59, 59);
+    padding: 2em;
+    margin:2em;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.confondo h4 {
+    font-family: 'Cabin', sans-serif;
+    padding: .5em;
+}
+
+.confondo img {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.confondo img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.kryptos {
+    text-align: left;
+    background: rgb(211, 59, 59);
+    padding: 2em;
+    margin:2em;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.kryptos h4 {
+    font-family: 'Cabin', sans-serif;
+    padding: .5em;
+}
+
+.kryptos img {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.kryptos img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+.lanisters {
+    text-align: left;
+    background: rgb(211, 59, 59);
+    padding: 2em;
+    margin:2em;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.lanisters h4 {
+    font-family: 'Cabin', sans-serif;
+    padding: .5em;
+}
+
+.lanisters img {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.lanisters img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .whizQuiz {
+        padding: 2em;
+        width: 100%;
+        margin: -1em;
+    }
+    .confondo {
+        padding: 2em;
+        width: 100%;
+        margin: -1em;
+    }
+    .kryptos {
+        padding: 2em;
+        width: 100%;
+        margin: -1em;
+    }
+
+    .lanisters {
+        padding: 2em;
+        width: 100%;
+        margin: -1em;
+    }
+  }
