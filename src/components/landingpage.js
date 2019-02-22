@@ -41,8 +41,8 @@ class LandingPage extends Component {
               <img src={require("../assets/pheonix2.png")} alt="Pheonix"/>
             </Grid>
             <Grid item xs={12} sm={6}>
-              <h3>Pheonix</h3>
-              <p>Pheonix is the annual techfest of Curieux</p>
+              <h3>Phoenix</h3>
+              <p>Phoenix is the annual techfest of Curieux</p>
               <p>Participate to win exciting prizes</p>
               <button className="btn-white" onClick={this.handleClick}>Register</button>
             </Grid>
